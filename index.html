@@ -1,7 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learn Proverbs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <div class="overlay">
+            <h1 class="welcome-title">Learn Proverbs</h1>
+            <p class="welcome-text">"The fear of the LORD is the beginning of knowledge; fools despise wisdom and instruction."</p>
+            <p class="proverb-ref">- Proverbs 1:7</p>
+        </div>
+    </section>
+
+    <!-- Verse of the Day Section -->
+    <section id="verse-of-the-day">
+        <h2>Verse of the Day</h2>
+        <p id="verse"></p>
+        <button onclick="getNewVerse()">New Verse</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Start your journey of wisdom now!</p>
+        <a href="#">Explore Proverbs</a>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
